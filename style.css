@@ -1,0 +1,15 @@
+@-webkit-keyframes gray {
+	0% {transform: rotate(0deg) scale(1, 1) ;}
+	50% {transform: rotate(360deg) scale(2, 2) ;}
+	100% {transform: rotate(720deg) scale(1, 1) ;}
+}
+
+
+
+.main {width: 100%; position: absolute;}
+.main.png {max-width: 100%; height: auto;}
+
+.title {position: absolute; margin-top: 60px;}
+.wing {position: absolute; margin-top: 60px; width: 80%; left: 5%;}
+.horn {position: absolute; margin-top: 60px; width: 80%; left: 15%;}
+.open {position: absolute; margin-top: 60px; width: 80%; left: 10%;}
